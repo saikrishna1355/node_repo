@@ -18260,3 +18260,323 @@
 2025-08-05 11:48 +05:30:              Current: 6.0.16
 2025-08-05 11:48 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
 2025-08-05 11:48 +05:30:              Current: 6.0.16
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
+2025-08-05 11:48 +05:30: Error: Cannot find module 'winston'
+2025-08-05 11:48 +05:30: Require stack:
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/utils/logger.js
+2025-08-05 11:48 +05:30: - /home/administrator/learnings/node-be/src/app.js
+2025-08-05 11:48 +05:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-05 11:48 +05:30:     at require (node:internal/modules/helpers:176:18)
+2025-08-05 11:48 +05:30:     at Object.<anonymous> (/home/administrator/learnings/node-be/src/utils/logger.js:1:17)
+2025-08-05 11:48 +05:30:     at Module._compile (node:internal/modules/cjs/loader:1378:14)
+2025-08-05 11:48 +05:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)
+2025-08-05 11:48 +05:30:     at Module.load (node:internal/modules/cjs/loader:1212:32)
+2025-08-05 11:48 +05:30:     at Module._load (node:internal/modules/cjs/loader:1028:12)
+2025-08-05 11:48 +05:30:     at Module.require (node:internal/modules/cjs/loader:1237:19)
+2025-08-05 11:48 +05:30:     at Hook._require.Module.require (/home/administrator/.nvm/versions/node/v21.6.0/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-05 11:48 +05:30:   code: 'MODULE_NOT_FOUND',
+2025-08-05 11:48 +05:30:   requireStack: [
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/utils/logger.js',
+2025-08-05 11:48 +05:30:     '/home/administrator/learnings/node-be/src/app.js'
+2025-08-05 11:48 +05:30:   ]
+2025-08-05 11:48 +05:30: }
