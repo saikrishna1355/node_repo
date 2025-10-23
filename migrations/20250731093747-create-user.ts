@@ -1,7 +1,10 @@
 'use strict';
 
+import type { QueryInterface } from 'sequelize';
+
+// Keep CommonJS export style for sequelize-cli compatibility under ts-node
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
+  up: async (queryInterface: QueryInterface, Sequelize: typeof import('sequelize')) => {
     await queryInterface.createTable('user', {
       id: {
         type: Sequelize.INTEGER,
@@ -39,7 +42,8 @@ module.exports = {
     });
   },
 
-  down: async (queryInterface, Sequelize) => {
+  down: async (queryInterface: QueryInterface) => {
     await queryInterface.dropTable('user');
   },
 };
+

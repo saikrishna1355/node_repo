@@ -4,8 +4,8 @@
     "module": "CommonJS",
     "lib": ["ES2020"],
     "moduleResolution": "Node",
-    "baseUrl": "./src",
-    "rootDir": "src",
+    "baseUrl": "./",
+    "rootDir": ".",
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
@@ -14,6 +14,25 @@
     "resolveJsonModule": true,
     
   },
-  "include": ["src/**/*"],
+  "files": [
+    "migrations/20250731093747-create-user.ts",
+    "src/app.ts",
+    "src/database/mongo.ts",
+    "src/database/mysql.ts",
+    "src/jobs/addEmailJob.ts",
+    "src/middlewares/authMiddleware.ts",
+    "src/models/User.ts",
+    "src/queues/emailQueue.ts",
+    "src/repositories/authRepo.ts",
+    "src/routes/api_v1.ts",
+    "src/services/authService.ts",
+    "src/services/userService.ts",
+    "src/types/express.d.ts",
+    "src/types/global.d.ts",
+    "src/utils/asyncHandler.ts",
+    "src/utils/logger.ts",
+    "src/workers/emailWorker.ts"
+  ],
+  "include": ["**/*.ts", "**/*.d.ts"],
   "exclude": ["node_modules", "dist"]
 }

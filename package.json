@@ -7,8 +7,9 @@
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "start": "node dist/app.js",
     "prestart": "npm run build",
-    "migrate:dev": "NODE_ENV=dev npx sequelize-cli db:migrate",
-    "seed:dev": "NODE_ENV=dev npx sequelize-cli db:seed:all"
+    "sequelize": "node -r ts-node/register ./node_modules/sequelize-cli/lib/sequelize",
+    "migrate:dev": "NODE_ENV=dev npm run sequelize db:migrate",
+    "seed:dev": "NODE_ENV=dev npm run sequelize db:seed:all"
   },
   "keywords": [],
   "author": "",
@@ -40,6 +41,7 @@
     "@types/jsonwebtoken": "^9.0.6",
     "@types/morgan": "^1.9.7",
     "@types/node": "^22.7.9",
+    "sequelize-cli": "^6.6.3",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.3"
