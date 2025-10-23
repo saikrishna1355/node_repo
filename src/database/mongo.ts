@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const {
   DB_HOST,
@@ -7,8 +7,7 @@ const {
   DB_USERNAME,
   DB_PASSWORD,
   DB_AUTH_DATABASE,
-  PORT
-} = process.env;
+} = process.env as Record<string, string>;
 
 let mongoURI = `mongodb://${DB_HOST}:${DB_PORT}/${DB_DATABASE}`;
 
@@ -20,11 +19,19 @@ if (DB_USERNAME && DB_PASSWORD) {
   }
 }
 
-mongoose.connect(mongoURI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-}).then(() => {
-  console.log('MongoDB connected');
-}).catch((err) => {
-  console.error('MongoDB connection error:', err.message);
-});
+mongoose
+  .connect(
+    mongoURI,
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    } as any
+  )
+  .then(() => {
+    console.log('MongoDB connected');
+  })
+  .catch((err) => {
+    console.error('MongoDB connection error:', err.message);
+  });
+
+export {};

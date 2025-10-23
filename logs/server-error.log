@@ -18586,3 +18586,42 @@
 2025-08-05 11:49 +05:30:              Current: 6.0.16
 2025-08-05 11:49 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
 2025-08-05 11:49 +05:30:              Current: 6.0.16
+2025-10-23 15:07 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
+2025-10-23 15:07 +05:30:              Current: 6.0.16
+2025-10-23 15:08 +05:30: SyntaxError: Unexpected token '3', "3333{
+2025-10-23 15:08 +05:30:   "u"... is not valid JSON
+2025-10-23 15:08 +05:30:     at JSON.parse (<anonymous>)
+2025-10-23 15:08 +05:30:     at createStrictSyntaxError (/home/administrator/learnings/node-be/node_modules/body-parser/lib/types/json.js:156:10)
+2025-10-23 15:08 +05:30:     at parse (/home/administrator/learnings/node-be/node_modules/body-parser/lib/types/json.js:71:15)
+2025-10-23 15:08 +05:30:     at /home/administrator/learnings/node-be/node_modules/body-parser/lib/read.js:123:18
+2025-10-23 15:08 +05:30:     at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+2025-10-23 15:08 +05:30:     at invokeCallback (/home/administrator/learnings/node-be/node_modules/raw-body/index.js:238:16)
+2025-10-23 15:08 +05:30:     at done (/home/administrator/learnings/node-be/node_modules/raw-body/index.js:227:7)
+2025-10-23 15:08 +05:30:     at IncomingMessage.onEnd (/home/administrator/learnings/node-be/node_modules/raw-body/index.js:287:7)
+2025-10-23 15:08 +05:30:     at IncomingMessage.emit (node:events:519:28)
+2025-10-23 15:08 +05:30:     at endReadableNT (node:internal/streams/readable:1696:12)
+2025-10-23 15:09 +05:30: SyntaxError: Expected double-quoted property name in JSON at position 26 (line 3 column 1)
+2025-10-23 15:09 +05:30:     at JSON.parse (<anonymous>)
+2025-10-23 15:09 +05:30:     at parse (/home/administrator/learnings/node-be/node_modules/body-parser/lib/types/json.js:77:19)
+2025-10-23 15:09 +05:30:     at /home/administrator/learnings/node-be/node_modules/body-parser/lib/read.js:123:18
+2025-10-23 15:09 +05:30:     at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+2025-10-23 15:09 +05:30:     at invokeCallback (/home/administrator/learnings/node-be/node_modules/raw-body/index.js:238:16)
+2025-10-23 15:09 +05:30:     at done (/home/administrator/learnings/node-be/node_modules/raw-body/index.js:227:7)
+2025-10-23 15:09 +05:30:     at IncomingMessage.onEnd (/home/administrator/learnings/node-be/node_modules/raw-body/index.js:287:7)
+2025-10-23 15:09 +05:30:     at IncomingMessage.emit (node:events:519:28)
+2025-10-23 15:09 +05:30:     at endReadableNT (node:internal/streams/readable:1696:12)
+2025-10-23 15:09 +05:30:     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-10-23 15:12 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
+2025-10-23 15:12 +05:30:              Current: 6.0.16
+2025-10-23 15:12 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
+2025-10-23 15:12 +05:30:              Current: 6.0.16
+2025-10-23 15:12 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
+2025-10-23 15:12 +05:30:              Current: 6.0.16
+2025-10-23 15:12 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
+2025-10-23 15:12 +05:30:              Current: 6.0.16
+2025-10-23 15:13 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
+2025-10-23 15:13 +05:30:              Current: 6.0.16
+2025-10-23 15:13 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
+2025-10-23 15:13 +05:30:              Current: 6.0.16
+2025-10-23 15:13 +05:30: It is highly recommended to use a minimum Redis version of 6.2.0
+2025-10-23 15:13 +05:30:              Current: 6.0.16

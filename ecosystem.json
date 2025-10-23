@@ -2,13 +2,13 @@
   "apps": [
     {
       "name": "NODE-DEV",
-      "script": "./src/app.js",
+      "script": "./dist/app.js",
       "exec_mode": "fork",
       "instances": 1,
       "autorestart": true,
       "merge_logs": true,
       "watch": true,
-      "ignore_watch": ["node_modules", "logs", ".git"],
+      "ignore_watch": ["node_modules", "logs", ".git", "src"],
       "env": {
         "HOSTNAME": "localhost",
         "PORT": 3333

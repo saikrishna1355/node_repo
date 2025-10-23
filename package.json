@@ -1,8 +1,12 @@
 {
   "name": "be",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "start": "node dist/app.js",
+    "prestart": "npm run build",
     "migrate:dev": "NODE_ENV=dev npx sequelize-cli db:migrate",
     "seed:dev": "NODE_ENV=dev npx sequelize-cli db:seed:all"
   },
@@ -27,5 +31,17 @@
     "sequelize": "^6.37.7",
     "winston": "^3.17.0",
     "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.3",
+    "@types/helmet": "^4.0.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/morgan": "^1.9.7",
+    "@types/node": "^22.7.9",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
   }
 }

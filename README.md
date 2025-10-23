@@ -27,7 +27,7 @@ A system built with **Node.js**, supporting:
 
 ```
 ├── src/
-│   ├── app.js               # Entry point
+│   ├── app.ts               # Entry point (TypeScript)
 │   ├── config/
 │   ├── models/
 │   ├── services/
@@ -58,11 +58,18 @@ npm install
 
 ---
 
-## ⚙️ Running the App
+## ⚙️ Running the App (TypeScript)
 
 ### Development (with auto-watch):
 
 ```bash
+# Dev (ts-node-dev)
+npm run dev
+
+# Build + start
+npm run start
+
+# PM2 (watches dist/)
 pm2 start ecosystem.json --only NODE-DEV
 ```
 
@@ -71,7 +78,8 @@ pm2 start ecosystem.json --only NODE-DEV
 ## 📋 Available Scripts
 
 ```bash
-npm run dev        # Start app in dev mode (nodemon or pm2 --watch)
+npm run dev        # Start app in dev mode (ts-node-dev)
+npm run build      # Compile TypeScript to dist/
 npm run migrate    # Run DB migrations
 npm run seed       # Seed initial data
 ```

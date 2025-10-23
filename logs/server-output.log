@@ -1217,3 +1217,30 @@
 2025-08-05 11:49 +05:30: Server running on port http://localhost:3333
 2025-08-05 11:49 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: ⚙️  enable debug logging with { debug: true }
 2025-08-05 11:49 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:07 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: ⚙️  enable debug logging with { debug: true }
+2025-10-23 15:07 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:08 +05:30: [2025-10-23 15:08:21] INFO: 📧 Sending email to:
+2025-10-23 15:08 +05:30: [0mPOST /login [32m200[0m 934.745 ms - 176[0m
+2025-10-23 15:08 +05:30: [0mGET /users [32m200[0m 13.612 ms - 507[0m
+2025-10-23 15:09 +05:30: [0mGET /users [32m200[0m 19.467 ms - 507[0m
+2025-10-23 15:09 +05:30: [0mPOST /logout [32m200[0m 1.245 ms - 37[0m
+2025-10-23 15:12 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-10-23 15:12 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:12 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-10-23 15:12 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:12 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-10-23 15:12 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:12 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-10-23 15:12 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:13 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: ⚙️  enable debug logging with { debug: true }
+2025-10-23 15:13 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:13 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-10-23 15:13 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:13 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: ⚙️  enable debug logging with { debug: true }
+2025-10-23 15:13 +05:30: Server running on port http://localhost:3333
+2025-10-23 15:13 +05:30: [2025-10-23 15:13:29] INFO: 📧 Sending email to:
+2025-10-23 15:13 +05:30: [0mPOST /login [32m200[0m 119.840 ms - 176[0m
+2025-10-23 15:13 +05:30: [0mGET /users [32m200[0m 5.908 ms - 507[0m
+2025-10-23 15:13 +05:30: [0mPOST /logout [32m200[0m 1.572 ms - 37[0m
+2025-10-23 15:13 +05:30: [0mPOST /logout [33m403[0m 0.470 ms - 27[0m
+2025-10-23 15:13 +05:30: [0mPOST /logout [32m200[0m 0.992 ms - 37[0m
