@@ -1256,3 +1256,5 @@
 2025-10-23 16:27 +05:30: [0mPOST /login [32m200[0m 89.405 ms - 176[0m
 2025-10-24 18:51 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: ⚙️  override existing env vars with { override: true }
 2025-10-24 18:51 +05:30: Server running on port http://localhost:3333
+2025-10-24 19:06 +05:30: [dotenv@17.2.1] injecting env (20) from .env.dev -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-10-24 19:06 +05:30: Server running on port http://localhost:3333
